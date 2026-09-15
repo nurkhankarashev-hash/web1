@@ -1,0 +1,132 @@
+h1, h2, h3 {
+    color: #333;
+}
+
+#main-heading {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.highlight {
+    background-color: #ffeaa7;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.header-section {
+    background-color: #e3fafc;
+    padding: 20px;
+    border-bottom: 2px solid #1098ad;
+    text-align: center;
+}
+
+.main-content {
+    padding: 5%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    background-color: #f1f3f5;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.profile-img {
+    width: 300px;
+    height: 200px;
+    border: 3px solid #0b7285;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 50%;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+.schedule-table th, .schedule-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.layout-table {
+    width: 100%;
+    border: 1px solid #aaa;
+}
+
+.menu-column {
+    width: 30%;
+    background-color: #f8f9fa;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.content-column {
+    width: 70%;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.pos-container {
+    position: relative;
+    height: 120px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.pos-static {
+    position: static;
+    background: #adb5bd;
+    padding: 5px;
+}
+
+.pos-relative {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    background: #74c0fc;
+    padding: 5px;
+}
+
+.pos-absolute {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #ff8787;
+    padding: 5px;
+}
+
+.float-container {
+    border: 1px solid #333;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.float-left {
+    float: left;
+    width: 45%;
+    background-color: #d0ebff;
+    padding: 10px;
+}
+
+.float-right {
+    float: right;
+    width: 45%;
+    background-color: #d3f9d8;
+    padding: 10px;
+}
+
+.clear-box {
+    clear: both;
+    background-color: #ffe3e3;
+    padding: 10px;
+    margin-top: 10px;
+}
