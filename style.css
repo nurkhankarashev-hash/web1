@@ -58,6 +58,7 @@ h1, h2, h3 {
 .layout-table {
     width: 100%;
     border: 1px solid #aaa;
+    color: #1098ad;
 }
 
 .menu-column {
@@ -129,4 +130,10 @@ h1, h2, h3 {
     background-color: #ffe3e3;
     padding: 10px;
     margin-top: 10px;
+}
+.schedule-table th{
+    color: brown;
+}
+.schedule-table td{
+    color: blueviolet;
 }
